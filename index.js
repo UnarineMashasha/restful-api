@@ -12,7 +12,7 @@ app.get("/tshirt", (req, res) => {
   });
 });
 
-aa.post("/tshirt/:id", (req, res) => {
+app.post("/tshirt/:id", (req, res) => {
   const { id } = req.params;
   const { logo } = req.body;
 
